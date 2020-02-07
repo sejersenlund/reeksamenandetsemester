@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	font-family: 'Patua One', cursive;	
+	text-align: center;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}
+
+.flexcontainerstart {
+	display: flex;
+	flex-direction: row;
+}
+
+.optionone, .optiontwo {
+	display: flex;
+	flex-direction: row;
+}
+
+.frameone, .frametwo {
+	display: flex;
+	flex-direction: row;
+}
+
+@media only screen and (max-width: 480px) {
+	
+	.flexcontainerstart {
+		width: 100%;
+		height: 100%;
+	}
+
+	.frameone, .frametwo {
+		width: 30%;
+		height: 30%;
+		margin: 15%;
+	}
+	
+	.topbar {
+		width: 100%;
+		height: 10%;
+	}
+	
+	.logo {
+		width: 100%;
+		height: 15%;
+	}
+	
+	.logosize {
+		height: 75px;
+	}
+	
+	.social {
+		width: 75px;
+	}
+	
+	.optionone, .optiontwo {
+		width: 45%;
+		height: 45%;
+		margin: 5%;
+	}
+	
+	.frameone, .frametwo {
+	}
+
+}
+
