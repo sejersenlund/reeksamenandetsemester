@@ -8,6 +8,7 @@
 
 body {
 	margin: 0;
+	background-color: #f9f9f9;
 }
 
 a {
@@ -18,17 +19,10 @@ a {
 
 .flexcontainerstart {
 	display: flex;
-	flex-direction: row;
 }
 
 .optionone, .optiontwo {
 	display: flex;
-	flex-direction: row;
-}
-
-.frameone, .frametwo {
-	display: flex;
-	flex-direction: row;
 }
 
 @media only screen and (max-width: 480px) {
@@ -36,12 +30,7 @@ a {
 	.flexcontainerstart {
 		width: 100%;
 		height: 100%;
-	}
-
-	.frameone, .frametwo {
-		width: 30%;
-		height: 30%;
-		margin: 15%;
+		flex-direction: column;
 	}
 	
 	.topbar {
@@ -59,17 +48,32 @@ a {
 	}
 	
 	.social {
-		width: 75px;
+		display: flex;
+		width: 70px;
+		position: absolute;
+		margin: 100px 0 100px 0;
 	}
+	
+	.socialtext {
+
+	}
+	
 	
 	.optionone, .optiontwo {
-		width: 45%;
-		height: 45%;
-		margin: 5%;
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
 	}
 	
-	.frameone, .frametwo {
+	.frameone {
+		margin: 0 50px 30px 50px;
+		width: 300px;
+		height: auto;
+		justify-content: center;
+		box-shadow: 20px 20px 20px 0 grey;
 	}
-
+	
 }
 
