@@ -30,6 +30,10 @@ a {
 	display: flex;
 }
 
+.somecontainer {
+	display: flex;
+}
+
 .flexcontainerkg {
 	display: flex;
 	flex-direction: row;
@@ -358,6 +362,424 @@ a {
 }
 
 @media only screen and (min-width: 480px) {
+	.flexcontainerstart {
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+	}
 	
+	.topbar {
+		width: 100%;
+		height: 10%;
+	}
+	
+	.logo {
+		width: 100%;
+		height: 15%;
+	}
+	
+	.logosize {
+		height: 75px;
+	}
+	
+	.social {
+		display: flex;
+		width: 70px;
+		position: absolute;
+		margin: 100px 0 100px 0;
+	}
+	
+	.socialtext {
+		display: flex;
+		position: absolute;
+		margin: 180px 0 100px 0;
+		color: white;
+	}
+	
+	.optionone, .optiontwo {
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+	}
+	
+	.frameone {
+		cursor: pointer;
+		margin: 0 50px 30px 50px;
+		width: 300px;
+		height: auto;
+		justify-content: center;
+		box-shadow: 20px 20px 20px 0 grey;
+	}
+	
+	.frameone:hover {
+		cursor: pointer;
+	}
+	
+	.flexcontainerstart {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.arrowtext {
+		margin: -90px 0 0 85vw;
+	}
+
+	.arrow {
+		top: 200vh;
+		left: 93vw;
+	}
+	.arrow span{
+		width: 4vw;
+		height: 4vw;
+		margin: -10px;
+	}
+	
+	.flexcontainerone {
+		margin-top: 75px;
+	}
+	
+	.influencerone {
+		margin-top: -90px;
+		background-color: transparent;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 
+	}
+
+	.descriptionone {
+		text-align: left;
+		font-size: 14px;
+		border-radius: 20px;
+		margin: 1.5vh 10vw 4.6vh 10vw;
+		padding: 18px;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 
+	}
+	
+	.someone {
+		width: 300px;
+		margin: 44px auto 36.5px auto;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 
+	}
+	
+	.flexcontainerkg {
+		width: 100vw;
+		height: 84.5vh;
+	}
+	
+	.productone {
+		width: 45vw;
+		height: 25vh;
+		margin: -2vh 30vw 1vh 30vw;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey);
+	}
+	
+	.energyone {
+		width: 60vw;
+		height: 50vh;
+		margin: -80px 20vw -20px 20vw;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey);
+	}
+	
+	.flexcontainerto {
+		margin-top: 120px;
+	}
+	
+	.flexcontainertre {
+		margin-top: 140px;
+	}
+	
+	.flexcontainertwo {
+		margin-top: 75px;
+	}
+	
+	.arrowtexttwo {
+		margin: -90px 0 0 85vw;
+	}
+
+	.arrowtwo {
+		top: 303vh;
+		left: 93vw;
+	}
+	.arrowtwo span{
+		width: 4vw;
+		height: 4vw;
+		margin: -10px;
+	}
+	
+	.influencertwo {
+		margin-top: -80px;
+		background-color: transparent;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 
+	}
+
+	.descriptiontwo {
+		text-align: left;
+		font-size: 14px;
+		border-radius: 20px;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 		
+		margin: 1.5vh 10vw 4.6vh 10vw;
+		padding: 18px;
+	}
+	
+	.sometwo {
+		width: 300px;
+		margin: 44px auto 38px auto;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 
+	}
+	
+	.flexcontainerlurpak {
+		width: 100vw;
+		height: 85.5vh;
+	}
+	
+	.producttwo {
+		width: 40vw;
+		height: 25vh;
+		margin: 3vh 30vw 1vh 30vw;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey);
+	}
+	
+	.energytwo {
+		width: 60vw;
+		height: 50vh;
+		margin: -80px 20vw -20px 20vw;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey);
+	}
+	
+	.flexcontainerlaktosefri {
+		width: 100vw;
+		height: 84vh;
+	}
+	
+	.somethree {
+		width: 300px;
+		margin: 44px auto 38px auto;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 
+	}
+	
+	.productthree {
+		width: 40vw;
+		height: 25vh;
+		margin: 3vh 30vw 1vh 30vw;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey);
+	}
+	
+	.energythree {
+		width: 60vw;
+		margin: 20px 20vw -20px 20vw;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey);
+	}
+	
+	.arrowtextthree {
+		margin: -100px 0 0 85vw;
+	}
+
+	.arrowthree {
+		top: 403vh;
+		left: 93vw;
+	}
+	.arrowthree span{
+		width: 4vw;
+		height: 4vw;
+		margin: -10px;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	
+	
+	
+	.flexcontainerstart {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.arrowtext {
+		margin: -90px 0 0 85vw;
+	}
+
+	.arrow {
+		top: 200vh;
+		left: 93vw;
+	}
+	.arrow span{
+		width: 4vw;
+		height: 4vw;
+		margin: -10px;
+	}
+	
+	.flexcontainerone {
+		margin-top: 75px;
+	}
+	
+	.influencerone {
+		margin-top: -90px;
+		background-color: transparent;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 
+	}
+
+	.descriptionone {
+		text-align: left;
+		font-size: 14px;
+		border-radius: 20px;
+		margin: 1.5vh 10vw 4.6vh 10vw;
+		padding: 18px;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 
+	}
+	
+	.someone {
+		width: 300px;
+		margin: 44px auto 36.5px auto;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 
+	}
+	
+	.flexcontainerkg {
+		width: 100vw;
+		height: 84.5vh;
+	}
+	
+	.productone {
+		width: 45vw;
+		height: 25vh;
+		margin: -2vh 30vw 1vh 30vw;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey);
+	}
+	
+	.energyone {
+		width: 60vw;
+		height: 50vh;
+		margin: -80px 20vw -20px 20vw;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey);
+	}
+	
+	.flexcontainerto {
+		margin-top: 120px;
+	}
+	
+	.flexcontainertre {
+		margin-top: 140px;
+	}
+	
+	.flexcontainertwo {
+		margin-top: 75px;
+	}
+	
+	.arrowtexttwo {
+		margin: -90px 0 0 85vw;
+	}
+
+	.arrowtwo {
+		top: 303vh;
+		left: 93vw;
+	}
+	.arrowtwo span{
+		width: 4vw;
+		height: 4vw;
+		margin: -10px;
+	}
+	
+	.influencertwo {
+		margin-top: -80px;
+		background-color: transparent;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 
+	}
+
+	.descriptiontwo {
+		text-align: left;
+		font-size: 14px;
+		border-radius: 20px;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 		
+		margin: 1.5vh 10vw 4.6vh 10vw;
+		padding: 18px;
+	}
+	
+	.sometwo {
+		width: 300px;
+		margin: 44px auto 38px auto;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 
+	}
+	
+	.flexcontainerlurpak {
+		width: 100vw;
+		height: 85.5vh;
+	}
+	
+	.producttwo {
+		width: 40vw;
+		height: 25vh;
+		margin: 3vh 30vw 1vh 30vw;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey);
+	}
+	
+	.energytwo {
+		width: 60vw;
+		height: 50vh;
+		margin: -80px 20vw -20px 20vw;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey);
+	}
+	
+	.flexcontainerlaktosefri {
+		width: 100vw;
+		height: 84vh;
+	}
+	
+	.somethree {
+		width: 300px;
+		margin: 44px auto 38px auto;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey); 
+	}
+	
+	.productthree {
+		width: 40vw;
+		height: 25vh;
+		margin: 3vh 30vw 1vh 30vw;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey);
+	}
+	
+	.energythree {
+		width: 60vw;
+		margin: 20px 20vw -20px 20vw;
+		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
+ 		filter: drop-shadow(20px 20px 20px grey);
+	}
+	
+	.arrowtextthree {
+		margin: -100px 0 0 85vw;
+	}
+
+	.arrowthree {
+		top: 403vh;
+		left: 93vw;
+	}
+	.arrowthree span{
+		width: 4vw;
+		height: 4vw;
+		margin: -10px;
+	}
 }
 
