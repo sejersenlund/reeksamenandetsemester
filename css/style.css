@@ -87,7 +87,12 @@ a {
 		height: 100%;
 	}
 	
+	.flexcontainerone {
+		margin-top: 75px;
+	}
+	
 	.influencerone {
+		margin-top: -60px;
 		background-color: transparent;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey); 
@@ -101,5 +106,6 @@ a {
 		margin: 0vh 10vw 5vh 10vw;
 		padding: 20px;
 	}
+	
 }
 
