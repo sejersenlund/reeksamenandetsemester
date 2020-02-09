@@ -5,6 +5,7 @@
 	font-family: 'Patua One', cursive;	
 	text-align: center;
 	scroll-behavior: smooth;
+	box-sizing: border-box;
 }
 
 body {
@@ -127,7 +128,6 @@ a {
 	.flexcontainerstart {
 		width: 100%;
 		height: 100%;
-		flex-direction: column;
 	}
 	
 	.topbar {
@@ -362,9 +362,10 @@ a {
 }
 
 @media only screen and (min-width: 480px) {
+	
 	.flexcontainerstart {
-		width: 100%;
-		height: 100%;
+		width: 50%;
+		height: 50%;
 		flex-direction: column;
 	}
 	
@@ -397,8 +398,6 @@ a {
 	}
 	
 	.optionone, .optiontwo {
-		width: 100%;
-		height: 100%;
 		flex-direction: column;
 		align-items: center;
 		position: relative;
@@ -600,24 +599,43 @@ a {
 
 @media only screen and (min-width: 800px) {
 	
-	
-	
 	.flexcontainerstart {
 		width: 100%;
 		height: 100%;
 	}
 	
+	.somecontainer > div {
+		width: 100vw;
+		height: 100vh;
+		flex-direction: row;
+		flex-flow: row wrap;
+	}
+	
+	.optionone {
+		width: 30vw;
+		height: 30vh;
+		margin: 20vh 10vw 0 10vw;
+		padding: 0 0 60vh 0;
+	}
+	
+	.optiontwo {
+		width: 30vw;
+		height: 30vh;
+		margin: -60vh 10vw 0 60vw;
+		padding: 0 0 50vh 0;
+	}
+
 	.arrowtext {
 		margin: -90px 0 0 85vw;
 	}
 
 	.arrow {
-		top: 200vh;
+		top: 195vh;
 		left: 93vw;
 	}
 	.arrow span{
-		width: 4vw;
-		height: 4vw;
+		width: 2vw;
+		height: 2vw;
 		margin: -10px;
 	}
 	
@@ -636,7 +654,7 @@ a {
 		text-align: left;
 		font-size: 14px;
 		border-radius: 20px;
-		margin: 1.5vh 10vw 4.6vh 10vw;
+		margin: 1.5vh 25vw 4.6vh 25vw;
 		padding: 18px;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey); 
@@ -655,17 +673,17 @@ a {
 	}
 	
 	.productone {
-		width: 45vw;
+		width: 25vw;
 		height: 25vh;
-		margin: -2vh 30vw 1vh 30vw;
+		margin: 0 37.5vw 0 37.5vw;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey);
 	}
 	
 	.energyone {
-		width: 60vw;
-		height: 50vh;
-		margin: -80px 20vw -20px 20vw;
+		width: 35vw;
+		height: 45vh;
+		margin: -80px 32.5vw -20px 32.5vw;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey);
 	}
@@ -687,12 +705,12 @@ a {
 	}
 
 	.arrowtwo {
-		top: 303vh;
+		top: 299vh;
 		left: 93vw;
 	}
 	.arrowtwo span{
-		width: 4vw;
-		height: 4vw;
+		width: 2vw;
+		height: 2vw;
 		margin: -10px;
 	}
 	
@@ -709,7 +727,7 @@ a {
 		border-radius: 20px;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey); 		
-		margin: 1.5vh 10vw 4.6vh 10vw;
+		margin: 1.5vh 25vw 4.6vh 25vw;
 		padding: 18px;
 	}
 	
@@ -726,17 +744,17 @@ a {
 	}
 	
 	.producttwo {
-		width: 40vw;
-		height: 25vh;
-		margin: 3vh 30vw 1vh 30vw;
+		width: 25vw;
+		height: 30vh;
+		margin: 0 37.5vw 0 37.5vw;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey);
 	}
 	
 	.energytwo {
-		width: 60vw;
-		height: 50vh;
-		margin: -80px 20vw -20px 20vw;
+		width: 35vw;
+		height: 45vh;
+		margin: -80px 32.5vw -20px 32.5vw;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey);
 	}
@@ -754,31 +772,34 @@ a {
 	}
 	
 	.productthree {
-		width: 40vw;
+		width: 25vw;
 		height: 25vh;
-		margin: 3vh 30vw 1vh 30vw;
+		margin: 0 37.5vw 0 37.5vw;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey);
 	}
 	
 	.energythree {
-		width: 60vw;
-		margin: 20px 20vw -20px 20vw;
+		width: 37vw;
+		height: 45vh;
+		margin: 20px 32.5vw -20px 32.5vw;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey);
 	}
+	
 	
 	.arrowtextthree {
 		margin: -100px 0 0 85vw;
 	}
 
 	.arrowthree {
-		top: 403vh;
-		left: 93vw;
+		transform: rotate(180deg);
+		top: 393vh;
+		left: 92.5vw;
 	}
 	.arrowthree span{
-		width: 4vw;
-		height: 4vw;
+		width: 2vw;
+		height: 2vw;
 		margin: -10px;
 	}
 }
