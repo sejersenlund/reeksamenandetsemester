@@ -189,7 +189,7 @@ a {
 	}
 
 	.arrow {
-		top: 200vh;
+		top: 208vh;
 		left: 93vw;
 	}
 	.arrow span{
@@ -232,17 +232,17 @@ a {
 	}
 	
 	.productone {
-		width: 45vw;
+		width: 50vw;
 		height: 25vh;
-		margin: -2vh 30vw 1vh 30vw;
+		margin: -2vh 25vw 1vh 25vw;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey);
 	}
 	
 	.energyone {
-		width: 60vw;
+		width: 70vw;
 		height: 50vh;
-		margin: -80px 20vw -20px 20vw;
+		margin: -80px 15vw -20px 15vw;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey);
 	}
@@ -264,7 +264,7 @@ a {
 	}
 
 	.arrowtwo {
-		top: 303vh;
+		top: 322vh;
 		left: 93vw;
 	}
 	.arrowtwo span{
@@ -303,17 +303,17 @@ a {
 	}
 	
 	.producttwo {
-		width: 40vw;
+		width: 50vw;
 		height: 25vh;
-		margin: 3vh 30vw 1vh 30vw;
+		margin: 3vh 25vw 1vh 25vw;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey);
 	}
 	
 	.energytwo {
-		width: 60vw;
+		width: 70vw;
 		height: 50vh;
-		margin: -80px 20vw -20px 20vw;
+		margin: -80px 15vw -20px 15vw;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey);
 	}
@@ -331,9 +331,9 @@ a {
 	}
 	
 	.productthree {
-		width: 40vw;
+		width: 50vw;
 		height: 25vh;
-		margin: 3vh 30vw 1vh 30vw;
+		margin: 3vh 25vw 1vh 25vw;
 		-webkit-filter: drop-shadow(20px 20px 20px 0 grey);
  		filter: drop-shadow(20px 20px 20px grey);
 	}
@@ -350,7 +350,8 @@ a {
 	}
 
 	.arrowthree {
-		top: 408vh;
+		transform: rotate(180deg);
+		top: 418vh;
 		left: 93vw;
 	}
 	.arrowthree span{
@@ -587,12 +588,13 @@ a {
 	}
 
 	.arrowthree {
-		top: 403vh;
+		transform: rotate(180deg);
+		top: 395vh;
 		left: 93vw;
 	}
 	.arrowthree span{
-		width: 4vw;
-		height: 4vw;
+		width: 3vw;
+		height: 3vw;
 		margin: -10px;
 	}
 }
@@ -787,19 +789,131 @@ a {
  		filter: drop-shadow(20px 20px 20px grey);
 	}
 	
-	
 	.arrowtextthree {
 		margin: -100px 0 0 85vw;
 	}
 
 	.arrowthree {
 		transform: rotate(180deg);
-		top: 393vh;
+		top: 390vh;
 		left: 92.5vw;
 	}
 	.arrowthree span{
 		width: 2vw;
 		height: 2vw;
+		margin: -10px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	
+	.frameone {
+		width: 400px;
+		height: 400px;
+		margin: -70px 0 0 0;
+	}
+	
+	.influencerone {
+		margin-top: 10px;
+	}
+	
+	.descriptionone, .descriptiontwo {
+		margin: 1.5vh 30vw 4.6vh 30vw;
+	}
+	
+	.someone, .sometwo, .somethree {
+		margin: 5px 0 30px 0;
+	}
+	
+	.productone {
+		width: 23vw;
+		height: 23vw;
+		margin: 15vw 51.2vw 0 25.6vw;
+	}
+	
+	.energyone {
+		width: 30vw;
+		height: 40vw;
+		margin: -43vw 18.6vw 0 51.4vw;
+	}
+	
+	.arrow {
+		top: 195vh;
+		left: 93vw;
+	}
+	
+	.arrow span{
+		width: 1.5vw;
+		height: 1.5vw;
+		margin: -10px;
+	}
+	
+	.arrowtwo {
+		top: 302vh;
+	}
+	
+	.arrowtwo span{
+		width: 1.5vw;
+		height: 1.5vw;
+		margin: -10px;
+	}
+	
+	.producttwo {
+		width: 23vw;
+		height: 26vw;
+		margin: 15vw 51.2vw 0 25.6vw;
+	}
+	
+	.energytwo {
+		width: 28vw;
+		height: 40vw;
+		margin: -44vw 18.6vw -20vh 51.4vw;
+	}
+	
+	.productthree {
+		width: 26vw;
+		height: 26vw;
+		margin: 15vw 56.2vw 0 20.6vw;
+	}
+	
+	.energythree {
+		width: 32vw;
+		height: 40vw;
+		margin: -43vw 18.6vw 0 51.4vw;
+	}
+	
+}
+
+@media only screen and (min-width: 1250px) {
+	
+	.arrow {
+		top: 195vh;
+		left: 93vw;
+	}
+	
+	.arrow span{
+		width: 1.5vw;
+		height: 1.5vw;
+		margin: -10px;
+	}
+	
+	.arrowtwo {
+		top: 296vh;
+	}
+	
+	.arrowtwo span{
+		width: 1.5vw;
+		height: 1.5vw;
+		margin: -10px;
+	}
+	
+	.arrowthree {
+		top: 385vh;
+	}
+	
+	.arrowthree span{
+		width: 1.5vw;
+		height: 1.5vw;
 		margin: -10px;
 	}
 }
